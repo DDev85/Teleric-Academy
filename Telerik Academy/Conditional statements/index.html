@@ -1,0 +1,122 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conditional statements</title>
+</head>
+<body>
+    <div id="container">
+        <div id="exchange">
+            <h3>Problem 1. Exchange if greater</h3>
+            <p>
+                Write an if statement that takes two double variables a and b and exchanges their values if the first one is greater than the second.<br />
+                As a result print the values a and b, separated by a space.
+            </p>  
+                    <input id="one" placeholder="Number A"/>
+                    <input id="two" placeholder="Number B"/>
+                    <button onclick="viewExchange()">Exchange A and B</button>       
+            <div id="answerOne"><b>The answer is: </b></div>
+            <hr />
+        </div>
+
+        <div>
+            <h3>Problem 2. Multiplication Sign</h3>
+            <p>
+                Write a script that shows the sign (+, - or 0) of the product of three real numbers, without calculating it.
+                Use a sequence of if operators.
+            </p>
+            <input id="one-multiplication" placeholder="Number A" />
+            <input id="two-multiplication" placeholder="Number B" />
+            <input id="tree-multiplication" placeholder="Number C" />
+            <button onclick="viewMultiplication()">Multiplication!</button>
+            <div id="answerTwo"><b>The answer is: </b></div>
+            <hr />
+        </div>
+
+        <div>
+            <h3>Problem 3. The biggest of Three</h3>
+            <p>
+                Write a script that finds the biggest of three numbers.
+                Use nested if statements.
+            </p>
+            <input id="one-biggest" placeholder="Number A" />
+            <input id="two-biggest" placeholder="Number B" />
+            <input id="tree-biggest" placeholder="Number C" />
+            <button onclick="viewBiggest()">Biggest!</button>
+            <div id="answerTree"><b>The answer is: </b></div>
+            <hr />
+        </div>
+
+        <div>
+            <h3>Problem 4. Sort 3 numbers</h3>
+            <p>
+                Sort 3 real values in descending order.
+                Use nested if statements.<br />
+                <i>Note: Don’t use arrays and the built-in sorting functionality.</i>
+            </p>
+            <input id="one-sort" placeholder="Number A" />
+            <input id="two-sort" placeholder="Number B" />
+            <input id="tree-sort" placeholder="Number C" />
+            <button onclick="viewSort()">Sort!</button>
+            <div id="answerFor"><b>The answer is: </b></div>
+            <hr />
+        </div>
+
+        <div>
+            <h3>Problem 5. Digit as word</h3>
+            <p>
+                Write a script that asks for a digit (0-9), and depending on the input, shows the digit as a word (in English).
+                Print “not a digit” in case of invalid input.
+                Use a switch statement.
+            </p>
+            <input id="one-digit" placeholder="Enter Digit" />
+            <button onclick="viewDigit()">Digit as Word!</button>
+            <div id="answerFive"><b>The answer is: </b></div>
+            <hr />
+        </div>
+
+        <div>
+            <h3>Problem 6. Quadratic equation</h3>
+            <p>
+                Write a script that reads the coefficients a, b and c of a quadratic equation ax2 + bx + c = 0 and solves it (prints its real roots).
+                Calculates and prints its real roots.<br />
+                <i>Note: Quadratic equations may have 0, 1 or 2 real roots.</i>
+            </p>
+            <input id="one-quad" placeholder="Number A" />
+            <input id="two-quad" placeholder="Number B" />
+            <input id="tree-quad" placeholder="Number C" />
+            <button onclick="viewQuad()">Quadratic!</button>
+            <div id="answerSix"><b>The answer is: </b></div>
+            <hr />
+        </div>
+
+        <div>
+            <h3>Problem 7. The biggest of five numbers</h3>
+            <p>
+                Write a script that finds the greatest of given 5 variables.
+                Use nested if statements.
+            </p>
+            <input id="one-big" placeholder="Number A" />
+            <input id="two-big" placeholder="Number B" />
+            <input id="tree-big" placeholder="Number C" />
+            <input id="four-big" placeholder="Number D" />
+            <input id="five-big" placeholder="Number E" />
+            <button onclick="viewBig()">The biggest!</button>
+            <div id="answerSeven"><b>The answer is: </b></div>
+            <hr />
+        </div>
+
+        <div>
+            <h3>Problem 8. Number as words</h3>
+            <p>
+                Write a script that converts a number in the range [0…999] to words, corresponding to its English pronunciation.
+            </p>
+            <input id="one-number" placeholder="Enter Number" />
+            <button onclick="viewNumber()">Number to word!</button>
+            <div id="answerEight"><b>The answer is: </b></div>
+            <hr />
+        </div>
+
+     </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
