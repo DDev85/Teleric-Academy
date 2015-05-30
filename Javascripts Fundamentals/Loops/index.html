@@ -1,0 +1,66 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loops</title>
+</head>
+<body>
+    <div id="container">
+
+        <div>
+            <h3>Problem 1. Numbers</h3>
+            <p>
+                Write a script that prints all the numbers from <b>1</b> to <b>N</b>.
+            </p>
+            <input id="one" placeholder="Number" />
+            <button onclick="viewNumbersFor()">Use For Loop</button>
+            <button onclick="viewNumbersWhile()">Use While Loop</button>
+            <button onclick="viewNumbersDoWhile()">Use doWhile Loop</button>
+            <div id="answerOne"><b>Answer will place here. </b></div>
+            <hr />
+        </div>
+
+        <div>
+            <h3>Problem 2. Numbers not divisible</h3>
+            <p>
+                Write a script that prints all the numbers from <b>1</b> to <b>N</b>, that are not divisible by 3 and 7 at the same time.
+            </p>
+            <input id="one-divisible" placeholder="Number" />
+            <button onclick="viewDivisibleLoop()">Use For Loop</button>
+            <div id="answerTwo"><b>Answer will place here. </b></div>
+            <hr />
+        </div>
+
+        <div>
+            <h3>Problem 3. Min/Max of sequence</h3>
+            <p>
+                Write a script that finds the max and min number from a sequence of numbers.
+            </p>
+            <input id="one-minMax" placeholder="Add numbers" />
+            <button onclick="viewAddFunc()">Add</button>
+            <button onclick="viewMinMax()">Show min and max</button>
+            <button onclick="clearArray()">Clear array</button>
+            <div id="adds">Numbers: </div>
+            <div id="answerTree"><b>Answer will place here. </b></div>
+            <hr />
+        </div>
+
+        <div>
+            <h3>Problem 4. Lexicographically smallest</h3>
+            <p>
+                Write a script that finds the lexicographically smallest and largest property in document, window and navigator objects.
+            </p>
+            <select id="option">
+                <option value="document">document</option>
+                <option value="window">window</option>
+                <option value="navigator">navigator</option>
+            </select>
+
+            <button onclick="Lex()">Answer</button>
+            <div id="answerFor"><b>Answer will place here. </b></div>
+            <hr />
+        </div>
+
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
